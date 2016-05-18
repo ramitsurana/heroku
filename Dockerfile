@@ -4,7 +4,7 @@ MAINTAINER Ramit Surana <ramitsurana@gmail.com>
 
 #Installing Python,Golang,ruby,and git
 RUN apt-get update -qqy
-RUN apt-get install -y ca-certificates curl wget ca-certificates
+RUN apt-get install -y ca-certificates curl wget 
 
 #Installing Heroku Toolbelt
 RUN echo >/etc/apt/sources.list.d/heroku.list \
