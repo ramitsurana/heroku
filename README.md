@@ -9,7 +9,9 @@ Heroku is Saas platform for developers to build and automate things with ease.
 ##What I am trying to achieve ?
 
 Basically I am trying to build a ecosystem enviorment on heroku for 
-developers to work.these languages can be installed :
+developers to work.
+
+Currently,these languages can be installed :
 * Ruby
 * Golang
 * Python
