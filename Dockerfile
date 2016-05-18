@@ -12,9 +12,8 @@ deb http://toolbelt.heroku.com/ubuntu ./
 RUN curl -sL https://toolbelt.heroku.com/apt/release.key | apt-key add -
 RUN apt-get update && apt-get install -y heroku-toolbelt
 
-#Adding repository
-ADD ./support /usr/local/bin/support
-RUN chmod +x /usr/local/bin/support
+#Cloning repository
+RUN git clone https://github.com/ramitsurana/heroku-runtime
 
 #Setting Workdir
 WORKDIR ["/usr/local/heroku"]
