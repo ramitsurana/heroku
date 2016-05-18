@@ -1,5 +1,7 @@
 # Heroku-runtime
 
+[![Docker Repository on Quay](https://quay.io/repository/ramitsurana05/heroku-runtime/status "Docker Repository on Quay")](https://quay.io/repository/ramitsurana05/heroku-runtime)
+
 ![docker-heroku](https://cloud.githubusercontent.com/assets/8342133/15350626/0d148b9c-1cf8-11e6-806e-a7a000822cb7.png)
 
 ##Heroku:
