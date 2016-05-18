@@ -2,7 +2,7 @@ FROM ubuntu
 
 MAINTAINER Ramit Surana <ramitsurana@gmail.com>
 
-#Installing Python,Golang,ruby,and git
+#Installing basics
 RUN apt-get update -qqy
 RUN apt-get install -y ca-certificates curl wget 
 
