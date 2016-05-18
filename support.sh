@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Hey welcome amigos ! So you have installed the heroku toolbelt. Awesome !! Using this 
 shell script you can install a variety of different languages according to your taste.Write your language:
-(golang/python/ruby)"
+(golang/python/ruby/nodejs/java)"
 read a;
 if [ "$a" == "golang" ]
 then
@@ -18,3 +18,12 @@ then
 apt-get install ruby;
 #exit 3;
 fi
+if [ "$a" == "nodejs" ]
+then
+apt-get install nodejs;
+fi
+if [ "$a" == "java" ]
+then
+apt-get install openjdk-7-jre openjdk-7-jdk;
+fi
+
