@@ -1,0 +1,6 @@
+{
+  "name": "Heroku-runtime",
+  "tagline": "",
+  "body": "# Heroku-runtime\r\n\r\n![docker-heroku](https://cloud.githubusercontent.com/assets/8342133/15350626/0d148b9c-1cf8-11e6-806e-a7a000822cb7.png)\r\n\r\n##Heroku:\r\n\r\nHeroku is Saas platform for developers to build and automate things with ease.\r\n\r\n##What I am trying to achieve ?\r\n\r\nBasically I am trying to build a ecosystem enviorment on heroku for \r\ndevelopers to work.\r\n\r\nCurrently,these languages can be installed :\r\n* Ruby\r\n* Golang\r\n* Python\r\n\r\nAssuming these are the favourite languages for developers to start with.\r\n\r\n##To Begin:\r\n\r\n```\r\ngit clone https://github.com/ramitsurana/heroku-runtime\r\n```\r\n```\r\ncd heroku-runtime\r\n```\r\n```\r\nchmod +x heroku-runtime\r\n```\r\n```\r\n./support.sh\r\n```\r\nThat's it choose your language !\r\n\r\nAlong with this you can also login to your heroku and start deploying stuff !!\r\n\r\n```\r\nheroku login\r\n```\r\n\r\n##License:\r\n\r\nMIT License\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
